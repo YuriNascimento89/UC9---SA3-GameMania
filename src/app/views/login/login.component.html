@@ -18,12 +18,15 @@
     <!-- Login Form -->
     <form #userForm="ngForm" (ngSubmit)="onSubmit()">
 
-      <input type="email" id="email" class="fadeIn second" name="email" placeholder="E-mail" [(ngModel)]= "userModel.email">
-      <input type="Password" id="senha" class="fadeIn third" name="senha" placeholder="Senha" [(ngModel)]= "userModel.senha" >
+      <input type="email" id="email" class="fadeIn second" name="email" placeholder="E-mail" [(ngModel)]= "loginModel.email">
+      <input type="Password" id="senha" class="fadeIn third" name="senha" placeholder="Senha" [(ngModel)]= "loginModel.senha" >
       <input type="submit" class="fadeIn fourth" value="Entrar">
 
     </form>
 
+    <p id="mensagem" *ngIf="mensagem!= '' ">{{mensagem}}</p>
+
+    
     <!-- Remind Passowrd -->
     <div id="formFooter">
       <a class="underlineHover" href="#">Esqueceu sua senha? </a>

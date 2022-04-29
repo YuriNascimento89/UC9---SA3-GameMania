@@ -1,0 +1,72 @@
+{
+  "users": [
+    {
+      "email": "yuri@email.com",
+      "password": "churrasco",
+      "nome": "yuri",
+      "id": 1
+    },
+    {
+      "email": "letty@email.com",
+      "password": "$2a$10$QsgrPVtmGsYw5ixb3U4G0.U5gZY1nHgEg3CSotfBCQuEAvLtdXXOa",
+      "nome": "leticia",
+      "id": 2
+    },
+    {
+      "email" : "lavinia@email.com",
+      "password": "flamengo",
+      "nome" : "lavinia",
+      "id" : 3
+    }
+  ],
+  "noticias": [
+    {
+      "id": 1,
+      " imagem": "",
+      "titulo": " Lançamento do Super Mario",
+      "descricao": " No dia 30 de Abril será lançado o novo Super Mario World"
+    },
+    {
+      "id": 2,
+      " imagem": "",
+      "titulo": " Playstation ",
+      "descricao": " Jogos de playstation ficarão mais baratos."
+    },
+    {
+      "id": 3,
+      " imagem": "",
+      "titulo": "X-Box",
+      "descricao": " Microsoft não fará atualizações no x-box one"
+    },
+    {
+      "id": 4,
+      " imagem": "",
+      "titulo": " E-Sports",
+      "descricao": " Campeonato Mundial será em novembro"
+    },
+    {
+      "id": 5,
+      " imagem": "",
+      "titulo": " Counter Strike",
+      "descricao": " Jogo terá novos mapas"
+    },
+    {
+      "id": 6,
+      " imagem": "",
+      "titulo": " League of Legends",
+      "descricao": " Melhor do mundo está contundido"
+    },
+    {
+      " imagem": "",
+      "titulo": " League of Legends",
+      "descricao": " Melhor do mundo está contundido",
+      "id": 7
+    },
+    {
+      " imagem": "",
+      "titulo": "CHurrasco dos campeoes",
+      "descricao": " time vencedor faz churrasco de comemoracao",
+      "id": 8
+    }
+  ]
+}

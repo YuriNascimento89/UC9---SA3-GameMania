@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Noticias } from 'src/app/models/noticias';
+import {NoticiasService} from 'src/app/services/noticias.service';
+
 
 @Component({
   selector: 'app-home',
@@ -7,14 +10,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit { 
 
-  constructor() {}
+  constructor(private noticiasService: NoticiasService) {}
+
+  listaNoticias = [] as Noticias[]
     
-    
- 
 
   ngOnInit(): void {
+    this.carregarNoticias()
   }
  
+  carregarNoticias(){
+    this.noticiasService.getNoticias().subscribe( (noticiasRecebidas: Noticias[]) => {
+      this.listaNoticias = noticiasRecebidas;
+      console.log(this.listaNoticias)
+    } )
+  }
 
 }
 

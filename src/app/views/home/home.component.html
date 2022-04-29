@@ -15,7 +15,11 @@
     </header>
     
     <div class="banner">
+        
         <img src="assets/img/Banner Desktop.png" alt="Banner">
+        
+      
+       
     
     <section class="secao-jogos">
         
@@ -49,7 +53,11 @@
 
 <footer>
     
-    <div class="rodape">
+    <div *ngFor=" let noticias os listaNoticias" class="rodape">
+    
+            <img [src]="" alt="">
+        <h3> {{noticias.titulo}}</h3>
+        <a>{{noticias.descricao}}</a>
    Todos os direitos reservados <br> Game Mania é focada no mercado gamer.
 
 
