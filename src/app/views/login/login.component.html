@@ -19,8 +19,8 @@
     <form #userForm="ngForm" (ngSubmit)="onSubmit()">
 
       <input type="email" id="email" class="fadeIn second" name="email" placeholder="E-mail" [(ngModel)]= "loginModel.email">
-      <input type="Password" id="senha" class="fadeIn third" name="senha" placeholder="Senha" [(ngModel)]= "loginModel.senha" >
-      <input type="submit" class="fadeIn fourth" value="Entrar">
+      <input type="password" id="senha" class="fadeIn third" name="Password" placeholder="Senha" [(ngModel)]= "loginModel.senha" >
+      <input type="submit"  id="botao-entrar" value="Entrar">
 
     </form>
 

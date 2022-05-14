@@ -228,7 +228,7 @@ html {
     animation-delay: 0.8s;
   }
   
-  .fadeIn.fourth {
+  #botao-entrar {
       color:black;
       background-color: yellow;
     -webkit-animation-delay: 1s;

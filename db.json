@@ -13,10 +13,22 @@
       "id": 2
     },
     {
-      "email" : "lavinia@email.com",
+      "email": "lavinia@email.com",
       "password": "flamengo",
-      "nome" : "lavinia",
-      "id" : 3
+      "nome": "lavinia",
+      "id": 3
+    },
+    {
+      "email": "arthur@email.com",
+      "password": "futebol",
+      "nome": "Arthur",
+      "id": 4
+    },
+    {
+      "email": "tati@email.com",
+      "password": "samba",
+      "nome": "tatiana",
+      "id": 5
     }
   ],
   "noticias": [
@@ -67,6 +79,13 @@
       "titulo": "CHurrasco dos campeoes",
       "descricao": " time vencedor faz churrasco de comemoracao",
       "id": 8
-    }
+    },
+    [
+      {
+        " imagem": "",
+        "titulo": " Fifa 2023",
+        "descricao": " Novos Jogadores, novos métodos."
+      }
+    ]
   ]
 }
